@@ -1,27 +1,11 @@
-﻿
-using ClienteMvc.Data;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using ClienteApp.Models;
 
-Data / ApplicationDbContext.cs:
-
-using Microsoft.EntityFrameworkCore;
-using ClienteMvc.Models;
-
-namespace ClienteMvc.Data
+public class ApplicationDbContext : DbContext
 {
-    public class ApplicationDbContext : DbContext
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
-        {
-        }
-
-        public DbSet<Cliente> Clientes { get; set; }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Cliente>().HasKey(c => c.ID_Cliente);
-        }
     }
-}
 
+    public DbSet<Cliente> Clientes { get; set; }
+}
