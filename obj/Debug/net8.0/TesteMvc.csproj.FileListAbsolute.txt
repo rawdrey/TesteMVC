@@ -1,9 +1,0 @@
-C:\Users\RAWDREY\Desktop\git\TesteMvc\obj\Debug\net8.0\TesteMvc.csproj.AssemblyReference.cache
-C:\Users\RAWDREY\Desktop\git\TesteMvc\obj\Debug\net8.0\TesteMvc.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\RAWDREY\Desktop\git\TesteMvc\obj\Debug\net8.0\TesteMvc.AssemblyInfoInputs.cache
-C:\Users\RAWDREY\Desktop\git\TesteMvc\obj\Debug\net8.0\TesteMvc.AssemblyInfo.cs
-C:\Users\RAWDREY\Desktop\git\TesteMvc\obj\Debug\net8.0\TesteMvc.csproj.CoreCompileInputs.cache
-C:\Users\RAWDREY\Desktop\git\TesteMvc\obj\Debug\net8.0\TesteMvc.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\RAWDREY\Desktop\git\TesteMvc\obj\Debug\net8.0\TesteMvc.RazorAssemblyInfo.cache
-C:\Users\RAWDREY\Desktop\git\TesteMvc\obj\Debug\net8.0\TesteMvc.RazorAssemblyInfo.cs
-C:\Users\RAWDREY\Desktop\git\TesteMvc\obj\Debug\net8.0\TesteMvc.sourcelink.json
