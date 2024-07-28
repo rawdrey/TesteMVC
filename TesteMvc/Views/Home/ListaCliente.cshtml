@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Listar Clientes";
+}
+<h1>@ViewData["Title"]Listagem de Clientes</h1>
+
+<p>Aqui encontra a lista de todos clientes cadastrados.</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Cpf</th>
+            <th>Telefone</th>
+            <th>Email</th>
+            <th>Endereco</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cliente in Model)
+        {
+            <tr>
+                <td>@cliente.Id</td>
+                <td>@cliente.Nome</td>
+                <td>@cliente.Cpf</td>
+                <td>@cliente.Telefone</td>
+                <td>@cliente.Email</td>
+                <td>@cliente.Endereco</td>
+            </tr>
+        }
+    </tbody>
+</table>

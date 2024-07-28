@@ -18,9 +18,25 @@ namespace TesteMvc.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult ListaClientes()
         {
             return View();
+        }
+
+        public IActionResult AddCliente()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddCliente(ClienteModel cliente)
+        {
+            if (ModelState.IsValid)
+            {
+                ViewBag.Message = "Cliente adicionado com sucesso!";
+                return RedirectToAction("Index");
+            }
+            return View(cliente);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
