@@ -1,48 +1,49 @@
-﻿@model TesteMvc.Models.ClienteModel
+﻿@model ClienteModel
 
 @{
     ViewData["Title"] = "Adicionar Cliente";
 }
 
-<h1>@ViewData["Title"]Sistema Cadastro de Cliente</h1>
+<h1>@ViewData["Title"]</h1>
 
-<form asp-action="AddCliente" method="post">
+<form asp-action="SaveCliente" method="post">
+    <input type="hidden" asp-for="Id" />
     <div class="form-group">
-        <label asp-for="Nome" class="control-label">Nome</label>
+        <label asp-for="Nome"></label>
         <input asp-for="Nome" class="form-control" />
         <span asp-validation-for="Nome" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="CPF" class="control-label">CPF</label>
+        <label asp-for="CPF"></label>
         <input asp-for="CPF" class="form-control" />
         <span asp-validation-for="CPF" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Telefone" class="control-label">Telefone</label>
+        <label asp-for="Telefone"></label>
         <input asp-for="Telefone" class="form-control" />
         <span asp-validation-for="Telefone" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Email" class="control-label">Email</label>
+        <label asp-for="Email"></label>
         <input asp-for="Email" class="form-control" />
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Endereco" class="control-label">Endereço</label>
+        <label asp-for="Endereco"></label>
         <input asp-for="Endereco" class="form-control" />
         <span asp-validation-for="Endereco" class="text-danger"></span>
     </div>
-    <div class="form-group">
-        <input type="submit" value="Adicionar" class="btn btn-primary" />
-    </div>
+    <a class="btn btn-secondary" style="background-color: purple; border-color: purple;" asp-controller="Home" asp-action="ListaCliente">Cancelar</a>
+    <button type="submit" class="btn btn-primary">Salvar</button>
 </form>
 
-<p>
-    <a asp-action="ListaClientes" class="btn btn-secondary">Voltar para a Lista</a>
-</p>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["MensagemSucesso"]
+    </div>
 }
+
+<p>
+    <a asp-action="ListaCliente" class="btn btn-secondary">Ver Clientes</a>
+</p>

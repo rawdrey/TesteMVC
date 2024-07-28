@@ -1,31 +1,82 @@
-﻿@{
-    ViewData["Title"] = "Listar Clientes";
-}
-<h1>@ViewData["Title"]Listagem de Clientes</h1>
+﻿@model List<ClienteModel>
 
-<p>Aqui encontra a lista de todos clientes cadastrados.</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Nome</th>
-            <th>Cpf</th>
-            <th>Telefone</th>
-            <th>Email</th>
-            <th>Endereco</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var cliente in Model)
-        {
-            <tr>
-                <td>@cliente.Id</td>
-                <td>@cliente.Nome</td>
-                <td>@cliente.Cpf</td>
-                <td>@cliente.Telefone</td>
-                <td>@cliente.Email</td>
-                <td>@cliente.Endereco</td>
-            </tr>
-        }
-    </tbody>
-</table>
+@{
+    ViewData["Title"] = "Lista de Clientes";
+}
+
+<h1>@ViewData["Title"]</h1>
+<br />
+<p> Seja bem vindo(a), <br />
+    a lista  de todos clientes.</p>
+<br />
+<br />
+
+<p>
+    <a asp-action="AddCliente" class="btn btn-primary">Adicionar Cliente</a>
+</p>
+
+@if (Model != null && Model.Count > 0)
+{
+    <form id="clientesForm" method="post" asp-action="DeleteSelectedClientes">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        <input type="checkbox" id="selectAll" />
+                    </th>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Telefone</th>
+                    <th>Email</th>
+                    <th>Endereço</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="selectedClientes" value="@Model[i].Id" />
+                        </td>
+                        <td>@Model[i].Nome</td>
+                        <td>@Model[i].CPF</td>
+                        <td>@Model[i].Telefone</td>
+                        <td>@Model[i].Email</td>
+                        <td>@Model[i].Endereco</td>
+                        <td>
+                            <a asp-action="EditCliente" asp-route-id="@Model[i].Id" class="btn btn-warning">Editar</a><br />
+
+                            <a asp-action="DeleteCliente" asp-route-id="@Model[i].Id" class="btn btn-danger">Excluir</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <button type="submit" class="btn btn-danger">Apagar Selecionados</button>
+    </form>
+}
+else
+{
+    <p>Nenhum cliente encontrado.</p>
+}
+
+@section Scripts {
+    <script>
+        document.getElementById("selectAll").addEventListener("change", function () {
+            var checkboxes = document.querySelectorAll('input[name="selectedClientes"]');
+            for (var checkbox of checkboxes) {
+                checkbox.checked = this.checked;
+            }
+        });
+
+        document.querySelectorAll('input[name="selectedClientes"]').forEach(checkbox => {
+            checkbox.addEventListener('keydown', function (event) {
+                if (event.code === 'Space') {
+                    event.preventDefault();
+                    this.checked = !this.checked;
+                }
+            });
+        });
+    </script>
+}
