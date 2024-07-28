@@ -1,70 +1,74 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using TesteMvc.Data;
 using TesteMvc.Models;
-using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace TesteMvc.Controllers
 {
     public class HomeController : Controller
     {
-        private static List<ClienteModel> _clientes = new List<ClienteModel>();
+        private readonly AppDbContext _context;
 
-        
-    public IActionResult Index()
+        public HomeController(AppDbContext context)
+        {
+            _context = context;
+        }
+
+        public IActionResult Index()
         {
             return View();
         }
-        public IActionResult ListaCliente()
+
+        public async Task<IActionResult> ListaCliente()
         {
-            return View(_clientes);
+            var clientes = await _context.Clientes.ToListAsync();
+            return View(clientes);
         }
 
-        public IActionResult AddCliente(int? id)
+        public IActionResult AddCliente()
         {
-            ClienteModel cliente = new ClienteModel();
-            if (id.HasValue)
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddCliente(ClienteModel cliente)
+        {
+            if (ModelState.IsValid)
             {
-                cliente = _clientes.FirstOrDefault(c => c.Id == id.Value);
-                if (cliente == null)
-                {
-                    return NotFound();
-                }
+                _context.Clientes.Add(cliente);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("ListaCliente");
+            }
+            return View(cliente);
+        }
+
+        public async Task<IActionResult> EditCliente(int id)
+        {
+            var cliente = await _context.Clientes.FindAsync(id);
+            if (cliente == null)
+            {
+                return NotFound();
             }
             return View(cliente);
         }
 
         [HttpPost]
-        public IActionResult SaveCliente(ClienteModel cliente)
+        public async Task<IActionResult> EditCliente(ClienteModel cliente)
         {
             if (ModelState.IsValid)
             {
-                if (cliente.Id == 0)
-                {
-                    cliente.Id = _clientes.Count > 0 ? _clientes.Max(c => c.Id) + 1 : 1;
-                    _clientes.Add(cliente);
-                    TempData["MensagemSucesso"] = "Cliente adicionado com sucesso!";
-                }
-                else
-                {
-                    var existingCliente = _clientes.FirstOrDefault(c => c.Id == cliente.Id);
-                    if (existingCliente != null)
-                    {
-                        existingCliente.Nome = cliente.Nome;
-                        existingCliente.CPF = cliente.CPF;
-                        existingCliente.Telefone = cliente.Telefone;
-                        existingCliente.Email = cliente.Email;
-                        existingCliente.Endereco = cliente.Endereco;
-                        TempData["MensagemSucesso"] = "Cliente atualizado com sucesso!";
-                    }
-                }
+                _context.Clientes.Update(cliente);
+                await _context.SaveChangesAsync();
                 return RedirectToAction("ListaCliente");
             }
-            return View("AddCliente", cliente);
+            return View(cliente);
         }
 
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> DeleteCliente(int id)
         {
-            ClienteModel cliente = _clientes.FirstOrDefault(c => c.Id == id);
+            var cliente = await _context.Clientes.FindAsync(id);
             if (cliente == null)
             {
                 return NotFound();
@@ -72,25 +76,28 @@ namespace TesteMvc.Controllers
             return View(cliente);
         }
 
-        [HttpPost, ActionName("Delete")]
-        public IActionResult DeleteConfirmed(int id)
+        [HttpPost, ActionName("DeleteCliente")]
+        public async Task<IActionResult> DeleteClienteConfirmed(int id)
         {
-            ClienteModel cliente = _clientes.FirstOrDefault(c => c.Id == id);
+            var cliente = await _context.Clientes.FindAsync(id);
             if (cliente != null)
             {
-                _clientes.Remove(cliente);
+                _context.Clientes.Remove(cliente);
+                await _context.SaveChangesAsync();
             }
             return RedirectToAction("ListaCliente");
         }
 
-        public IActionResult Edit(int id)
+        [HttpPost]
+        public async Task<IActionResult> DeleteSelectedClientes(int[] selectedClientes)
         {
-            ClienteModel cliente = _clientes.FirstOrDefault(c => c.Id == id);
-            if (cliente == null)
+            var clientes = await _context.Clientes.Where(c => selectedClientes.Contains(c.Id)).ToListAsync();
+            if (clientes.Any())
             {
-                return NotFound();
+                _context.Clientes.RemoveRange(clientes);
+                await _context.SaveChangesAsync();
             }
-            return View("AddCliente", cliente);
+            return RedirectToAction("ListaCliente");
         }
     }
 }

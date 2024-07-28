@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\views\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:views\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\views\\home\\addcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:views\\home\\addcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,36 +35,31 @@
       "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\views\\home\\listacliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:views\\home\\listacliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RAWDREY\\AppData\\Local\\SourceServer\\a7565e6e76468fd9229d41604f354cd0d751abadb12eabde39faf8bc8e7c0609\\TesteMvc\\Views\\Home\\AddCliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\views\\home\\listacliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:views\\home\\listacliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|c:\\users\\rawdrey\\desktop\\git\\testemvc\\testemvc\\testemvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{86233E78-0B27-473C-8A68-892C8B8E9BAE}|TesteMvc.csproj|solutionrelative:testemvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Controllers\\ListaCliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,6 +68,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Controllers\\ListaClienteController||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\ListaClienteController||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\web.config||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\web.config||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,34 +81,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-27T20:19:34.288Z",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\README.md",
+              "RelativeDocumentMoniker": "Views\\README.md",
+              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\README.md",
+              "RelativeToolTip": "Views\\README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-07-28T20:01:48.479Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "AddCliente.cshtml",
               "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\AddCliente.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\AddCliente.cshtml",
               "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\AddCliente.cshtml",
               "RelativeToolTip": "Views\\Home\\AddCliente.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-27T21:50:53.629Z",
               "EditorCaption": ""
@@ -93,83 +112,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Home\\Delete.cshtml",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAswB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T14:05:36.756Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-28T17:14:28.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Home\\Edit.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAUwDUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T14:03:50.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ListaCliente.cshtml",
-              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\ListaCliente.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\ListaCliente.cshtml",
-              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\ListaCliente.cshtml",
-              "RelativeToolTip": "Views\\Home\\ListaCliente.cshtml",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAUwFsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-27T20:26:46.256Z",
+              "DocumentIndex": 3,
+              "Title": "ClienteModel.cs",
+              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Models\\ClienteModel.cs",
+              "RelativeDocumentMoniker": "Models\\ClienteModel.cs",
+              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Models\\ClienteModel.cs",
+              "RelativeToolTip": "Models\\ClienteModel.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T21:09:54.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAUwC8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-27T20:34:49.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAcwBgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T20:39:15.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAQwAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T20:52:02.836Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -177,23 +145,150 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAgAAAAAAAAAAAAqwBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-28T16:02:07.184Z"
+              "WhenOpened": "2024-07-28T16:02:07.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T17:53:42.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAwwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T20:39:15.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Home\\Delete.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAswB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T14:05:36.756Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ClienteModel.cs",
-              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Models\\ClienteModel.cs",
-              "RelativeDocumentMoniker": "Models\\ClienteModel.cs",
-              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Models\\ClienteModel.cs",
-              "RelativeToolTip": "Models\\ClienteModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T21:09:54.849Z"
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T20:34:49.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\RAWDREY\\AppData\\Local\\SourceServer\\a7565e6e76468fd9229d41604f354cd0d751abadb12eabde39faf8bc8e7c0609\\TesteMvc\\Views\\Home\\AddCliente.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\a7565e6e76468fd9229d41604f354cd0d751abadb12eabde39faf8bc8e7c0609\\TesteMvc\\Views\\Home\\AddCliente.cshtml",
+              "ToolTip": "C:\\Users\\RAWDREY\\AppData\\Local\\SourceServer\\a7565e6e76468fd9229d41604f354cd0d751abadb12eabde39faf8bc8e7c0609\\TesteMvc\\Views\\Home\\AddCliente.cshtml [Somente Leitura]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\a7565e6e76468fd9229d41604f354cd0d751abadb12eabde39faf8bc8e7c0609\\TesteMvc\\Views\\Home\\AddCliente.cshtml [Somente Leitura]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T19:38:23.443Z",
+              "EditorCaption": " [Somente Leitura]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "ListaCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\ListaCliente.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ListaCliente.cshtml",
+              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\ListaCliente.cshtml",
+              "RelativeToolTip": "Views\\Home\\ListaCliente.cshtml",
+              "ViewState": "AQIAACYAAAAAAAAAAAAUwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T20:26:46.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Home\\Edit.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAUwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T14:03:50.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T20:19:34.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAowGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T20:52:02.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TesteMvc.csproj",
+              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\TesteMvc.csproj",
+              "RelativeDocumentMoniker": "TesteMvc.csproj",
+              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\TesteMvc.csproj",
+              "RelativeToolTip": "TesteMvc.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-28T17:23:22.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\web.config",
+              "RelativeDocumentMoniker": "Views\\web.config",
+              "ToolTip": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Views\\web.config",
+              "RelativeToolTip": "Views\\web.config",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-28T18:05:54.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ListaCliente.cs",
               "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Controllers\\ListaCliente.cs",
               "RelativeDocumentMoniker": "Controllers\\ListaCliente.cs",
@@ -205,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "ListaClienteController",
               "DocumentMoniker": "C:\\Users\\RAWDREY\\Desktop\\git\\TesteMvc\\TesteMvc\\Controllers\\ListaClienteController",
               "RelativeDocumentMoniker": "Controllers\\ListaClienteController",

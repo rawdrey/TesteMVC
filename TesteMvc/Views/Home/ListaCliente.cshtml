@@ -6,17 +6,13 @@
 
 <h1>@ViewData["Title"]</h1>
 <br />
-<p>
-    Seja bem vindo(a), <br />
-    a lista  de todos clientes.
-</p>
+<p>Seja bem-vindo(a),</p>
+<p>A lista de todos os clientes.</p>
 <br />
 <br />
 
 <p>
-    <a asp-action="AddCliente" class="btn btn-primary">
-        <i class="fas fa-plus"></i> Adicionar Cliente
-    </a>
+    <a asp-action="AddCliente" class="btn btn-primary"><i class="fas fa-plus"></i> Adicionar Cliente</a>
 </p>
 
 @if (Model != null && Model.Count > 0)
@@ -25,9 +21,7 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th>
-                        <input type="checkbox" id="selectAll" />
-                    </th>
+                    <th>Selecionar</th>
                     <th>Nome</th>
                     <th>CPF</th>
                     <th>Telefone</th>
@@ -37,55 +31,29 @@
                 </tr>
             </thead>
             <tbody>
-                @for (int i = 0; i < Model.Count; i++)
+                @foreach (var cliente in Model)
                 {
                     <tr>
                         <td>
-                            <input type="checkbox" name="selectedClientes" value="@Model[i].Id" />
+                            <input type="checkbox" name="selectedClientes" value="@cliente.Id" />
                         </td>
-                        <td>@Model[i].Nome</td>
-                        <td>@Model[i].CPF</td>
-                        <td>@Model[i].Telefone</td>
-                        <td>@Model[i].Email</td>
-                        <td>@Model[i].Endereco</td>
+                        <td>@cliente.Nome</td>
+                        <td>@cliente.CPF</td>
+                        <td>@cliente.Telefone</td>
+                        <td>@cliente.Email</td>
+                        <td>@cliente.Endereco</td>
                         <td>
-                            <a asp-action="EditCliente" asp-route-id="@Model[i].Id" class="btn btn-warning">
-                                <i class="fas fa-edit"></i> Editar
-                            </a>
-                            <a asp-action="DeleteCliente" asp-route-id="@Model[i].Id" class="btn btn-danger">
-                                <i class="fas fa-trash-alt"></i> Excluir
-                            </a>
+                            <a asp-action="EditCliente" asp-route-id="@cliente.Id" class="btn btn-primary"><i class="fas fa-edit"></i> Editar</a>
+                            <a asp-action="DeleteCliente" asp-route-id="@cliente.Id" class="btn btn-danger"><i class="fas fa-trash"></i> Excluir</a>
                         </td>
                     </tr>
                 }
             </tbody>
         </table>
-        <button type="submit" class="btn btn-danger">
-            <i class="fas fa-trash-alt"></i> Apagar Selecionados
-        </button>
+        <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i> Excluir Selecionados</button>
     </form>
 }
 else
 {
-    <p>Nenhum cliente encontrado.</p>
-}
-
-@section Scripts {
-    <script>
-        document.getElementById("selectAll").addEventListener("change", function () {
-            var checkboxes = document.querySelectorAll('input[name="selectedClientes"]');
-            for (var checkbox of checkboxes) {
-                checkbox.checked = this.checked;
-            }
-        });
-
-        document.querySelectorAll('input[name="selectedClientes"]').forEach(checkbox => {
-            checkbox.addEventListener('keydown', function (event) {
-                if (event.code === 'Space') {
-                    event.preventDefault();
-                    this.checked = !this.checked;
-                }
-            });
-        });
-    </script>
+    <p>Nenhum cliente cadastrado.</p>
 }

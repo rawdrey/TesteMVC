@@ -1,12 +1,24 @@
-﻿namespace TesteMvc.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace TesteMvc.Models
 {
     public class ClienteModel
     {
         public int Id { get; set; }
-        public string Nome { get; set; }
-        public string CPF { get; set; }
-        public string Telefone { get; set; }
-        public string Email { get; set; }
-        public string Endereco { get; set; }
+
+        [Required]
+        public string Nome { get; set; } = string.Empty;
+
+        [Required]
+        public string CPF { get; set; } = string.Empty;
+
+        [Required]
+        public string Telefone { get; set; } = string.Empty;
+
+        [Required]
+        public string Email { get; set; } = string.Empty;
+
+        [Required]
+        public string Endereco { get; set; } = string.Empty;
     }
 }
